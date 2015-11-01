@@ -11,5 +11,4 @@
   <project name="android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="sony-msm8960" revision="b2g/cm-12.1" />
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="sony-msm8960" revision="b2g/cm-12.1" />
   <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="CyanogenMod" revision="cm-12.1" />
-  <project name="proprietary_vendor_sony" path="vendor/sony" remote="tm" revision="cm-12.1" />
 </manifest>
