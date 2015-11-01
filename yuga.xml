@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base-l-cm.xml"/>
+
+  <remote fetch="git://github.com/sony-msm8960/" name="sony-msm8960"/>
+  <remote fetch="git://github.com/TheMuppets/" name="tm"/>
+
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="CyanogenMod" revision="cm-12.1" />
+  <project name="android_device_sony_common" path="device/sony/common" remote="CyanogenMod" revision="cm-12.1" />
+  <project name="android_device_sony_yuga" path="device/sony/yuga" remote="sony-msm8960" revision="b2g/cm-12.1" />
+  <project name="android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="sony-msm8960" revision="b2g/cm-12.1" />
+  <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="sony-msm8960" revision="b2g/cm-12.1" />
+  <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="CyanogenMod" revision="cm-12.1" />
+  <project name="proprietary_vendor_sony" path="vendor/sony" remote="tm" revision="cm-12.1" />
+</manifest>
