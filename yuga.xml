@@ -4,6 +4,8 @@
 
   <remote fetch="git://github.com/sony-msm8960/" name="sony-msm8960"/>
   <remote fetch="git://github.com/TheMuppets/" name="tm"/>
+  
+  <remove-project name="platform_frameworks_av" path="frameworks/av" remote="cm-b2g" />
 
   <project name="android_device_qcom_common" path="device/qcom/common" remote="CyanogenMod" revision="cm-12.1" />
   <project name="android_device_sony_common" path="device/sony/common" remote="CyanogenMod" revision="cm-12.1" />
@@ -11,4 +13,5 @@
   <project name="android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="sony-msm8960" revision="b2g/cm-12.1" />
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="sony-msm8960" revision="b2g/cm-12.1" />
   <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="CyanogenMod" revision="cm-12.1" />
+  <project name="platform_frameworks_av" path="frameworks/av" remote="sony-msm8960" revision="b2g/cm-12.1-YOG4P" />
 </manifest>
